@@ -1,0 +1,36 @@
+
+-- cria repositorio
+git init
+
+-- adicionar arquivos para o commit
+git add .
+
+-- verificar status atual:
+
+git status
+
+-- configurar user e email:
+
+git config --global user.name "Dougllas Sousa"
+
+git config --global user.email "cursodsousa@gmail.com"
+
+-- visualizar a configuração de usuario:
+
+git config --global -l
+
+-- realizar o commit:
+
+git commit -m "commit inicial" 
+
+-- configurar qual é a url do repositório remoto no github:
+
+ git remote add origin https://github.com/cursodsousa/aula-github.git
+
+-- visualizar qual é o repositório remoto:
+
+git remote -v
+
+-- realizar o push (enviar o repositório local para o remoto):
+
+ git push origin master

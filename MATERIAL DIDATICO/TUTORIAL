@@ -1,0 +1,22 @@
+--NESTE PROJETO IREI UTILIZAR O SPRING INITIALIZR PARA CRIAÇÃO DO PROJETO SPRING-BOOT
+
+--https://start.spring.io/
+
+--Baixei o arquivo e descompactei na pasta do projeto
+
+--Ao abrir pelo Intellij ja será baixado as dependências pelo Maven
+
+//------------------------------------------------------------------------
+
+//inicializar um repositorio do git na pasta
+$git init
+//enviar arquivos para a área de stage
+$git add .
+//Commitar as alteraçõe
+$git commit -m "Project created"
+//trocar a branch para main caso ja não esteja
+$git branch -M main
+//adicionando o endereço remoto do repositório
+$git remote add origin git@github.com:enzolatanza/springeangular.git
+//enviando arquivos para o github
+$git push -u origin main
